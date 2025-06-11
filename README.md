@@ -57,3 +57,58 @@ git clone https://github.com/yourusername/fake-news-detection.git
 cd fake-news-detection
 ```
 
+
+### 2. Create and Activate a Virtual Environment (Optional)
+
+```bash
+python -m venv venv
+source venv/bin/activate         # On Windows use: venv\Scripts\activate
+```
+
+### 3. Install Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+---
+
+## 🚀 Run the Application
+
+Use the command below to start the web app:
+
+```bash
+streamlit run app.py
+```
+
+This will launch a local Streamlit server and open the application in your default web browser.
+
+---
+
+## 🌐 About Streamlit
+
+[Streamlit](https://streamlit.io/) is an open-source Python library that makes it easy to build custom web apps for machine learning and data science projects. It allows developers to turn Python scripts into interactive web apps with minimal effort.
+
+In this project, Streamlit is used to create a user interface where users can input news content and receive instant predictions from the model.
+
+---
+
+## ✨ Features
+
+- Clean and interactive user interface using Streamlit
+- Real-time fake/real news prediction
+- Lightweight and easy to deploy
+- Built with open-source tools (Python, Scikit-learn, Streamlit)
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License. You are free to use, modify, and share this software with proper attribution.
+
+---
+
+## 🙋‍♂️ Contact
+
+For questions, suggestions, or contributions, feel free to open an issue or contact the maintainer via GitHub.
+
